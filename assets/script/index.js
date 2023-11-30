@@ -2,7 +2,7 @@
 
 import { User , Subscriber } from './user.js';
   // Create a new Subscriber
-const subscriber = new Subscriber(1, 'William Zhang', 'William', 'william@example.com', ['Page1', 'Page2'], ['Group1', 'Group2'], true);
+const subscriber = new Subscriber(1, 'William Zhang', 'William', 'william@example.com', ['www.x.com', 'www.github.com'], ['Pet', 'Car'], true);
 
 document.getElementById('button').addEventListener('click', submitPost);
 
