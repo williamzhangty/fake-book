@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fakebook</title>
+  <link rel="stylesheet" href="./assets/style/index.css" media="all">
+  <script src="./assets/script/index.js" type="module"></script>
+</head>
+<body>
+  <header>
+    <div class="container flexbox">
+        <div>
+            <h1>FakeBook</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Friends</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Groups</a></li>
+                <li><a href="#">My ads</a></li> 
+                <li><a href="#">Settings</a></li> 
+            </ul>
+        </nav>
+        <div class="tail">
+            <div id="icon"></div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                  <span id="close" class="close">&times;</span>
+                  <p id="modal-info">User info will go here...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+  <main>
+    <div id="new-post">
+      <textarea placeholder="What's new, William?" rows=6></textarea>
+      <label for="file-upload" class="custom-file-upload" id="file-name"></label>
+      <input type="file" id="file-upload" />
+      <span id="file-name-display"></span>
+      <button id="button">Post</button>
+    </div>
+    <div id="posts"></div>
+  </main>
+</body>
+</html>
